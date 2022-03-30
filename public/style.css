@@ -1,0 +1,140 @@
+/*
+font-family: 'Courgette', cursive;
+font-family: 'Play', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Varela Round', sans-serif;
+font-family: 'Satisfy', cursive;
+ font-family: "Gochi Hand", cursive;
+
+#0f2027
+→
+#203a43
+→
+#2c5364
+*/
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h1 {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  padding: 2%;
+  margin: auto;
+  width: 40%;
+  text-align: center;
+}
+
+nav {
+  padding: 10px;
+}
+
+button {
+  color: #fffff9;
+  background-color: #1c1e1f;
+  border: none;
+}
+
+.t1body {
+  height: 100%;
+  background-repeat: no-repeat;
+  background: linear-gradient(#1c1e1f, #263135, #344349);
+  color: #fffff9;
+  font-family: "Varela Round", sans-serif;
+}
+
+.t1h1 {
+  font-family: "Courgette", cursive;
+  font-weight: lighter;
+  text-shadow: 0 0 2px #05b0ff, 0 0 4px #05b0ff, 0 0 6px #05b0ff,
+    0 0 10px #05b0ff;
+}
+
+.t2body {
+  background-color: #fdfffb;
+  color: #32174d;
+  font-family: "Inter", sans-serif;
+}
+
+.t2h1 {
+  font-family: "Optima";
+  font-weight: lighter;
+  text-shadow: 0.5px 0.5px 1px #8981c4;
+  letter-spacing: 0.25em;
+}
+
+.t2h2 {
+  border-radius: 5px;
+  box-shadow: 1px 0 2px #466472, -1px 0 2px #466472, 0 1px 2px #466472,
+    0 -1px 2px #466472;
+}
+
+.t3body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
+}
+
+.t3h1 {
+  font-family: "M PLUS 1", sans-serif;
+  font-weight: 100;
+  text-shadow: 0.5px 0.5px 1px #acacac;
+  letter-spacing: 0.25em;
+}
+
+.t3h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
+  border-radius: 2px;
+  box-shadow: inset 0 0 1px #fff, 0 0 1px #fff, 0 0 2px #949494, 0 0 4px #949494;
+}
+
+.t4body {
+  color: #000000;
+  background-color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+}
+
+.t4h1 {
+  font-family: "M PLUS 1", sans-serif;
+  font-weight: 100;
+  text-shadow: 0.5px 0.5px 1px #acacac;
+  letter-spacing: 0.25em;
+}
+
+.t4h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  border-radius: 5px;
+  box-shadow: inset 0 0 1px #fff, 0 0 1px #fff, 1px 1px 1px #5e5e5e,
+    -1px -1px 1px #5e5e5e, 1px -1px 1px #5e5e5e, -1px 1px 1px #5e5e5e;
+}
+
+.neon-red {
+  box-shadow: inset 0 0 1px #fff, inset 2px 0 3px #ff1818,
+    inset -2px 0 3px rgb(255, 38, 0), 0 0 1px #fff, -2px 0 3px rgb(255, 24, 24),
+    2px 0 3px rgb(255, 38, 0);
+}
+
+.neon-blue {
+  box-shadow: 0 0 4px #7ce5ff, 0 0 2px #05b0ff, 0 0 3px #7ce5ff, 0 0 2px #fff,
+    inset 0 0 1px #fff, inset 2px 0 3px #05b0ff, inset -2px 0 3px #05b0ff;
+}
+
+.silver {
+  box-shadow: 0 0 4px #c7c7c7, 0 0 2px #c7c7c7, 0 0 3px #c7c7c7, 0 0 1px #fff,
+    inset 0 0 1px #fff, inset 2px 0 3px #c7c7c7, inset -2px 0 3px #c7c7c7;
+}
